@@ -55,7 +55,7 @@ p.large-text { font-size: 1.25rem; }
 p.small-text { font-size: 0.875rem; }
 
 /* Custom color utility class */
-.u-text-custom-color-5 { color: #14b8a6; }
+.text-teal { color: #14b8a6; }
 
 /* ========== Logo Styling ========== */
 
@@ -89,7 +89,7 @@ p.small-text { font-size: 0.875rem; }
 /* ========== Button Styles ========== */
 
 /* Base button styles */
-.u-btn {
+.btn-primary {
   display: table;
   cursor: pointer;
   color: inherit;
@@ -127,55 +127,55 @@ p.small-text { font-size: 0.875rem; }
 }
 
 /* Button focus styles for accessibility */
-.u-btn:focus,
-.u-btn:active:focus,
-.u-btn.active:focus {
+.btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
 
 /* Button hover and focus states */
-.u-btn:hover,
-.u-btn:focus {
+.btn-primary:hover,
+.btn-primary:focus {
   text-decoration: none;
 }
 
 /* Button active state */
-.u-btn:active,
-.u-btn.active {
+.btn-primary:active,
+.btn-primary.active {
   outline: 0;
   background-image: none;
 }
 
 /* Disabled button styles */
-.u-btn.disabled,
-.u-btn[disabled] {
+.btn-primary.disabled,
+.btn-primary[disabled] {
   opacity: 0.6;
 }
 
 /* Circle and rectangle button variants */
-.u-btn-circle {
+.btn-circle {
   border-radius: 50%;
 }
 
-.u-btn-rectangle {
+.btn-rectangle {
   border-radius: 0 
 }
 
 /* Button transition for smooth color changes */
-.u-button-style {
+.button-transition {
   transition-property: background-color, color, border-color;
 }
 
 /* Custom color utility for text and buttons */
-.u-text-custom-color-4,
-.u-input.u-text-custom-color-4,
-.u-input.u-text-custom-color-4[class*="u-border-"],
-li.active > a.u-button-style.u-text-custom-color-4,
-li.active > a.u-button-style.u-text-custom-color-4[class*="u-border-"],
-a.u-button-style.u-text-custom-color-4,
-a.u-button-style.u-text-custom-color-4[class*="u-border-"]
+.text-teal-dark,
+.input-field.text-teal-dark,
+.input-field.text-teal-dark[class*="border-"],
+li.active > a.button-transition.text-teal-dark,
+li.active > a.button-transition.text-teal-dark[class*="border-"],
+a.button-transition.text-teal-dark,
+a.button-transition.text-teal-dark[class*="border-"]
 {
   color: #0f766e !important;
 }
